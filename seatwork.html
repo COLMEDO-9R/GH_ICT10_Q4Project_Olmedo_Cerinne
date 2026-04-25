@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ICT 10 - Account Creation</title>
+    <title>ICT 10 Project: Class Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://pyscript.net/releases/2024.9.1/core.css">
     <script type="module" src="https://pyscript.net/releases/2024.9.1/core.js"></script>
-
+    <center>
     <style>
     body {
             font-family: 'Segoe UI', sans-serif;
@@ -97,8 +97,118 @@
             border-radius: 15px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         }
+
+    
+.custom-navbar {
+    background: rgba(232, 240, 234, 0.9); 
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    width: 95%;
+    box-shadow: 0 5px 15px rgba(100, 120, 100, 0.2);
+    padding: 12px 20px;
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+}
+
+/* BRAND */
+.navbar-brand {
+    font-weight: bold;
+    color: #5f7f6b; /* sage text */
+    font-size: 1.3rem;
+}
+
+/* NAV LINKS */
+.nav-link {
+    color: #5f7f6b !important;
+    font-weight: 500;
+    margin: 0 10px;
+    padding: 6px 14px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+
+.nav-link:hover {
+    background: #cdddcf;
+    color: #3e5c4a !important;
+}
+
+.nav-link.active {
+    background: #8fae96; 
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.3rem;
+    color: #5f7f6b;
+}
+
+/* NAVBAR CONTAINER */
+.nav-container {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr; /* LEFT | CENTER | RIGHT */
+    align-items: center;
+    width: 100%;
+}
+
+
+.nav-left {
+    font-weight: bold;
+    color: #5f7f6b;
+    padding-left: 15px;
+}
+
+
+.nav-center {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+/* LINKS */
+.nav-center a {
+    text-decoration: none;
+    color: #5f7f6b;
+    font-weight: bold;
+    padding: 20px 10px;
+    position: relative;
+}
+
+
+.nav-center a.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background: #5f7f6b;
+}
     </style>
 </head>
+<!-- NAVBAR -->
+<nav class="custom-navbar">
+  <div class="nav-container">
+
+    <!-- LEFT -->
+    <div class="nav-left">
+      🍃 ClassSite
+    </div>
+
+    <!-- CENTER -->
+    <div class="nav-center">
+      <a href="seatwork.html">Class System</a>
+      <a href="index.html" class="active">Class Activites</a>
+      <a href="attendance_tracker.html">Attendance</a>
+    </div>
+
+    <!-- RIGHT (empty, just for balance) -->
+    <div></div>
+
+  </div>
+</nav>
 
 <body>
 
@@ -122,6 +232,7 @@
     </div>
 
     <py-script src="main.py"></py-script>
+    </center>
 
 </body>
 </html>
