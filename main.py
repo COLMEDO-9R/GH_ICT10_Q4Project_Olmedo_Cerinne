@@ -1,7 +1,6 @@
-from js import document
 from pyscript import document # type: ignore
 
-Activities = [
+Olmedo = [
     {
         "img": "https://i.pinimg.com/736x/4d/21/e1/4d21e1c2c27672c316f284d44a03ea83.jpg",
         "caption": "Description"
@@ -17,7 +16,7 @@ Activities = [
 ]
 
 
-Activities = [
+Baring = [
     {
         "img": "https://i.pinimg.com/736x/5e/17/d0/5e17d09d26f477c08755907890032884.jpg",
         "caption": "Description"
@@ -52,8 +51,8 @@ def create_cards(data, container_id):
 
         container.appendChild(card)
 
-create_cards(seatwork, "seatwork-gallery")
-create_cards(skills, "skills-gallery")
+create_cards(Olmedo, "Olmedo-gallery")
+create_cards(Baring, "Baring-gallery")
 
 
 class Classmate:
