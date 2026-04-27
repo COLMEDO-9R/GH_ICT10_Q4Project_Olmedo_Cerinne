@@ -1,4 +1,4 @@
-from pyscript import document # type: ignore
+from pyscript import document # type: ignore 
 
 class Classmate:
     def __init__(self, name, section, favorite_subject):
