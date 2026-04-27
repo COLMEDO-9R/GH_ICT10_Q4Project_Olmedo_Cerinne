@@ -2,7 +2,7 @@ from pyscript import document # type: ignore
 
 Olmedo = [
     {
-        "img": "https://i.pinimg.com/736x/4d/21/e1/4d21e1c2c27672c316f284d44a03ea83.jpg",
+        "img": "https://i.pinimg.com/736x/4d/21/e1/4d21e1c2c27672c316f284d44a03ea83.jpg", 
         "caption": "Cerinne's description"
     },
     {
