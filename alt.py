@@ -2,31 +2,31 @@ from pyscript import document # type: ignore
 
 Olmedo = [
     {
-        "img": "https://i.pinimg.com/736x/4d/21/e1/4d21e1c2c27672c316f284d44a03ea83.jpg", 
-        "caption": "Cerinne's description"
+        "img": "tkam.jpg", 
+        "caption": "my favorite memory is the mockingbird challenge in English class <br> - Cerinne"
     },
     {
-        "img": "https://i.pinimg.com/1200x/6b/6a/ab/6b6aab076c556b70d434d7b848806ef4.jpg",
-        "caption": "Lauren's description"
+        "img": "image.jpg",
+        "caption": "my favorite memory is the 2025-2026 campout <br> - Lauren"
     },
     {
-        "img": "https://i.pinimg.com/736x/30/8f/66/308f66f49f56ba3957be226d6c25117c.jpg",
-        "caption": "Jai's description"
+        "img": "",
+        "caption": "my favorite memory is  <br> - Jai"
     }
 ]
 
 
 Baring = [
     {
-        "img": "https://i.pinimg.com/736x/5e/17/d0/5e17d09d26f477c08755907890032884.jpg",
-        "caption": "Aisha's description"
+        "img": "day.jpg",
+        "caption": "my favorite memory is the 2025-2026 president's day <br> - Aisha"
     },
     {
-        "img": "https://i.pinimg.com/736x/4d/21/e1/4d21e1c2c27672c316f284d44a03ea83.jpg",
+        "img": "",
         "caption": "Shalanie's description"
     },
     {
-        "img": "https://i.pinimg.com/1200x/6b/6a/ab/6b6aab076c556b70d434d7b848806ef4.jpg",
+        "img": "",
         "caption": "Amanda's description"
     }
 ]
