@@ -23,11 +23,11 @@ Baring = [
     },
     {
         "img": "",
-        "caption": "Shalanie's description"
+        "caption": "my favorite memory is  <br> - Shalanie"
     },
     {
         "img": "",
-        "caption": "Amanda's description"
+        "caption": "my favorite memory is  <br> - Amanda"
     }
 ]
 
