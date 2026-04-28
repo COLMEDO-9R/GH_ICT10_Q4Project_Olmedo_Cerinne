@@ -12,42 +12,89 @@ body {
 }
 
 .custom-navbar {
-  border-bottom: 2px solid black;
-  padding: 15px 20px;
-}
+        background: rgba(232, 240, 234, 0.9); 
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        width: 95%;
+        box-shadow: 0 5px 15px rgba(100, 120, 100, 0.2);
+        padding: 12px 20px;
+        max-width: 900px;
+        margin: 0 auto 30px auto;
+        }
+
+.navbar-brand {
+        font-weight: bold;
+        color: #5f7f6b; 
+        font-size: 1.3rem;
+        }
+
+
+.nav-link {
+    color: #5f7f6b !important;
+    font-weight: 500;
+    margin: 0 10px;
+    padding: 6px 14px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+        }
+
+
+.nav-link:hover {
+    background: #cdddcf;
+    color: #3e5c4a !important;
+        }
+
+.nav-link.active {
+    background: #8fae96; 
+    color: white;
+    font-weight: bold;
+        }    
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.3rem;
+    color: #5f7f6b;
+    }
+
 
 .nav-container {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  align-items: center;
-}
+    display: grid;
+    grid-template-columns: 1fr auto 1fr; /* LEFT | CENTER | RIGHT */
+    align-items: center;
+    width: 100%;
+    }
+
 
 .nav-left {
-  font-weight: bold;
-}
+    font-weight: bold;
+    color: #5f7f6b;
+    padding-left: 15px;
+    }
+
 
 .nav-center {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-}
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    }
 
 .nav-center a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  position: relative;
-  padding-bottom: 5px;
-}
+    text-decoration: none;
+    color: #5f7f6b;
+    font-weight: bold;
+    padding: 20px 10px;
+    position: relative;
+    }
+
 
 .nav-center a.active::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 2px;
-  background: black;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background: #5f7f6b;
 }
 
 .main-wrapper {
