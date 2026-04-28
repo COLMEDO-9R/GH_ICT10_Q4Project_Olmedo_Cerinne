@@ -1,0 +1,93 @@
+body {
+    background-image: url("https://i.pinimg.com/1200x/0f/2c/86/0f2c86b43e10a422ff13535a0310f7e4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+/* Your Floating Glass Box */
+#input-section {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 30px;
+    border: 1px solid rgba(199, 22, 22, 0.171);
+    box-shadow: 0 8px 32px 0 #c08383;
+    display: flex;
+    flex-direction: column;
+    width: 400px; /* Adjusted slightly for better layout */
+    gap: 20px;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+label {
+    color: white;
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+/* Inputs and Selects */
+#day-select, #absence-input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Button styling from your code */
+button {
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #601111;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #380404;
+    transform: translateY(-2px);
+}
+
+/* The Graph side */
+#graph-output {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 30px;
+    border: 1px solid rgba(199, 22, 22, 0.171);
+    box-shadow: 0 8px 32px 0 #c08383;
+}
