@@ -3,7 +3,7 @@ from pyscript import document # type: ignore
 Olmedo = [
     {
         "img": "tkam.jpg", 
-        "caption": "my favorite memory is the mockingbird challenge in English class <br> - Cerinne Olmedo"
+        "caption": "my favorite memory is the Mockingbird Challenge in English class <br> - Cerinne Olmedo"
     },
     {
         "img": "image.jpg",
@@ -19,7 +19,7 @@ Olmedo = [
 Baring = [
     {
         "img": "day.jpg",
-        "caption": "my favorite memory is the 2025-2026 president's day <br> - Aisha Ledesma"
+        "caption": "my favorite memory is the 2025-2026 President's Day <br> - Aisha Ledesma"
     },
     {
         "img": "Camping_Obstacle Course.webp",
