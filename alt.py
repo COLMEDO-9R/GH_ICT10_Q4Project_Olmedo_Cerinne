@@ -3,15 +3,15 @@ from pyscript import document # type: ignore
 Olmedo = [
     {
         "img": "tkam.jpg", 
-        "caption": "my favorite memory is the mockingbird challenge in English class <br> - Cerinne"
+        "caption": "my favorite memory is the mockingbird challenge in English class <br> - Cerinne Olmedo"
     },
     {
         "img": "image.jpg",
-        "caption": "my favorite memory is the 2025-2026 campout <br> - Lauren"
+        "caption": "my favorite memory is the 2025-2026 campout <br> - Lauren Villafuerte"
     },
     {
         "img": "Preziosa Farms_Camping.webp",
-        "caption": "my favorite memory is the 2025-2026 Campout <br> - Jai"
+        "caption": "my favorite memory is the 2025-2026 Campout <br> - Jaiyanah Baring"
     }
 ]
 
@@ -19,15 +19,15 @@ Olmedo = [
 Baring = [
     {
         "img": "day.jpg",
-        "caption": "my favorite memory is the 2025-2026 president's day <br> - Aisha"
+        "caption": "my favorite memory is the 2025-2026 president's day <br> - Aisha Ledesma"
     },
     {
         "img": "",
-        "caption": "my favorite memory is  <br> - Shalanie"
+        "caption": "my favorite memory is  <br> - Shalanie Garabiles"
     },
     {
-        "img": "",
-        "caption": "my favorite memory is  <br> - Amanda"
+        "img": "Food Fair_OBMC",
+        "caption": "my favorite memory is the Food Fair <br> - Amanda Yao"
     }
 ]
 
