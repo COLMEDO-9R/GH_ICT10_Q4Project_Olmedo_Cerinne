@@ -7,7 +7,7 @@ Olmedo = [
     },
     {
         "img": "image.jpg",
-        "caption": "my favorite memory is the 2025-2026 campout <br> - Lauren Villafuerte"
+        "caption": "my favorite memory is the 2025-2026 Campout <br> - Lauren Villafuerte"
     },
     {
         "img": "Preziosa Farms_Camping.webp",
@@ -22,8 +22,8 @@ Baring = [
         "caption": "my favorite memory is the 2025-2026 president's day <br> - Aisha Ledesma"
     },
     {
-        "img": "",
-        "caption": "my favorite memory is  <br> - Shalanie Garabiles"
+        "img": "Camping_Obstacle Course.webp",
+        "caption": "my favorite memory is 2025-2026 Campout <br> - Shalanie Garabiles"
     },
     {
         "img": "Food Fair_OBMC.jpeg",
