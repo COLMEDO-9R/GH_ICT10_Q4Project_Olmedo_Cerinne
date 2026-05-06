@@ -26,7 +26,7 @@ Baring = [
         "caption": "my favorite memory is  <br> - Shalanie Garabiles"
     },
     {
-        "img": "Food Fair_OBMC",
+        "img": "Food Fair_OBMC.jpeg",
         "caption": "my favorite memory is the Food Fair <br> - Amanda Yao"
     }
 ]
