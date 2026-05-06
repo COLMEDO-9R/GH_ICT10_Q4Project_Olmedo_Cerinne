@@ -10,8 +10,8 @@ Olmedo = [
         "caption": "my favorite memory is the 2025-2026 campout <br> - Lauren"
     },
     {
-        "img": "",
-        "caption": "my favorite memory is  <br> - Jai"
+        "img": "Preziosa Farms_Camping.webp",
+        "caption": "my favorite memory is the 2025-2026 Campout <br> - Jai"
     }
 ]
 
