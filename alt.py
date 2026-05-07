@@ -26,7 +26,7 @@ Baring = [
         "caption": "my favorite memory is 2025-2026 Campout <br> - Shalanie Garabiles"
     },
     {
-        "img": "https://raw.githubusercontent.com/COLMEDO-9R/GH_ICT10_Q4Project_Olmedo_Cerinne/refs/heads/main/food%20fair.jpg",
+        "img": "",
         "caption": "my favorite memory is the Food Fair <br> - Amanda Yao"
     }
 ]
